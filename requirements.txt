@@ -1,0 +1,9 @@
+# installed into the conda environment "vdp" (Python 3.13); see README step 2
+torch>=2.3
+numpy
+scipy
+pandas
+matplotlib
+# torchdiffeq and efficient-kan are installed from your own clones of the official repositories (README step 3):
+#   https://github.com/rtqichen/torchdiffeq   commit 657943a (v0.2.5)
+#   https://github.com/Blealtan/efficient-kan  commit 7b6ce1c
