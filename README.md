@@ -29,6 +29,8 @@ Raissi et al. 2019 (physics-informed loss), Chen et al. 2018 (Neural ODE, `torch
 
 Project explained step by step: [docs/PROJECT_MAP.md](docs/PROJECT_MAP.md)
 
+Project explained step by step: [docs/PROJECT_MAP.md](docs/PROJECT_MAP.md)
+
 Suggested reading order: `settings.py` → `system.py` → `data.py` → `networks.py` → `neural_ode.py` →
 `least_squares.py` → `evaluate.py` → `run_one.py`.
 
