@@ -179,3 +179,15 @@ Least squares: guess µ and the start, simulate, compare, adjust (SciPy `least_s
 - **MLP vs KAN:** equal on Van der Pol up to µ 1.5, KAN ~3× slower; on Duffing the KAN clearly beats the MLP.
 - **Harder for every method:** more noise, small µ, few points.
 - **Next:** problems where part of the equation is unknown, where only the networks can help.
+
+## Animations
+Short clips (run 0, Kumar's setting), in the order of the map:
+[system](animations/1_system.mp4) ·
+[sampling](animations/2_sampling.mp4) ·
+[MLP](animations/3_mlp.mp4) ·
+[KAN](animations/4_kan.mp4) ·
+[arrow map](animations/5_arrow_map.mp4) ·
+[ODE solver](animations/6_ode_solver.mp4) ·
+[training](animations/7_training.mp4) ·
+[result](animations/8_result.mp4).
+Source and re-render script: [animations/source](animations/source/README.md).
