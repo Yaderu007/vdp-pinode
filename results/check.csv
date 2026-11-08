@@ -1,0 +1,4 @@
+run_id,plan,system,method,p_true,sigma,n_points,start_state,noise,windows,input_scale,run,status,p_hat,rel_error,success,failure,data_mse,physics_mse,discovery_r2,trajectory_r2,n_weights,wall_s,note
+check|vdp|p1.5|s0.1|n100|start0|gaussian|ls|w10|run0,check,vdp,ls,1.5,0.1,100,0,gaussian,0,0.0,0,ok,1.4992275647181612,0.0005149568545591935,True,none,0.009506107157759208,0.0,0.9999997348194379,0.9999997348051556,0,0.19,
+check|vdp|p1.5|s0.1|n100|start0|gaussian|mlp|w10|run0,check,vdp,mlp,1.5,0.1,100,0,gaussian,10,2.5,0,ok,1.5059450466773505,0.0039633644515670126,True,none,0.009055178736794511,0.00025487244213779866,0.40748817974273044,0.9998261583454463,1218,11.51,
+check|vdp|p1.5|s0.1|n100|start0|gaussian|kan|w10|run0,check,vdp,kan,1.5,0.1,100,0,gaussian,10,2.5,0,ok,1.5194456284786473,0.012963752319098187,True,none,0.008730967099518974,0.0001709090789270901,0.48241056707179797,0.9996259543519158,400,32.55,
