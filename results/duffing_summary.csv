@@ -1,0 +1,10 @@
+system,p_true,sigma,n_points,start_state,noise,method,runs,successes,median_error_%,mean_estimate,sd_estimate,worst_error_%,median_discovery_R2,median_trajectory_R2,median_seconds,weights
+duffing,0.3,0.01,100,0,gaussian,kan,20,20,0.2389,0.3003,0.0012,1.201,0.8981,1.0,76.96,400
+duffing,0.3,0.01,100,0,gaussian,ls,20,20,0.0845,0.3,0.0005,0.5231,1.0,1.0,0.27,0
+duffing,0.3,0.01,100,0,gaussian,mlp,20,7,10.9925,0.2749,0.0191,16.5,0.516,0.8981,22.12,1218
+duffing,0.3,0.1,100,0,gaussian,kan,20,20,1.9403,0.3029,0.0092,8.5545,0.8554,0.9993,70.725,400
+duffing,0.3,0.1,100,0,gaussian,ls,20,20,0.5427,0.3007,0.0037,3.9146,1.0,1.0,0.21,0
+duffing,0.3,0.1,100,0,gaussian,mlp,20,12,5.0565,0.2803,0.0211,17.2696,0.7416,0.9497,22.29,1218
+duffing,0.3,0.3,100,0,gaussian,kan,20,17,3.1138,0.2993,0.0208,17.2466,0.6717,0.9944,67.35,400
+duffing,0.3,0.3,100,0,gaussian,ls,20,19,4.6311,0.2984,0.0147,10.039,0.9979,0.9979,0.2,0
+duffing,0.3,0.3,100,0,gaussian,mlp,20,15,5.5614,0.2872,0.022,18.1991,0.9548,0.9944,22.37,1218

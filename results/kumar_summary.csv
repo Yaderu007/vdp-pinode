@@ -1,0 +1,4 @@
+system,p_true,sigma,n_points,start_state,noise,method,runs,successes,median_error_%,mean_estimate,sd_estimate,worst_error_%,median_discovery_R2,median_trajectory_R2,median_seconds,weights
+vdp,1.5,0.1,100,0,gaussian,kan,50,50,0.9932,1.4977,0.0196,3.4188,0.4262,0.9995,95.215,400
+vdp,1.5,0.1,100,0,gaussian,ls,50,50,0.3753,1.5011,0.008,1.3897,1.0,1.0,0.365,0
+vdp,1.5,0.1,100,0,gaussian,mlp,50,50,1.1335,1.492,0.0229,5.1628,0.406,0.9996,30.325,1218

@@ -1,0 +1,13 @@
+date         2026-11-08T18:46:53+01:00
+OS           Linux 7.2.7-arch1-1 | "Arch Linux"
+CPU          Intel(R) Core(TM) Ultra 7 255HX
+cores/threads 20 threads | 20 cores per socket
+RAM          30Gi
+GPU          NVIDIA GeForce RTX 5060 Laptop GPU, 615.71.09 (not used: runs are CPU only)
+python       3.13.18 (conda env 'vdp')
+torch        2.15.0+cu132
+numpy/scipy  2.5.3 / 1.18.1
+torchdiffeq  commit 657943a
+efficient-kan commit 7b6ce1c
+this repo    commit f8394cc
+settings     CPU, float64, 1 thread per run, 19 parallel workers
